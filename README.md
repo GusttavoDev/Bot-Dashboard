@@ -27,8 +27,17 @@ app.use(express.static('public'))
 app.listen(port, () => console.log(`App listening at http://localhost:${port}`));
 
 ```
+    
+<h3>CSS<h3>
 
-<h3>USANDO ROTAS</h3>
+<p>em server.js coloque</p>
+    
+```js
+app.use('/css', express.static(__dirname + 'public/css'));
+```
+<p>em seguida crie uma pasta public e uma css apos isso você ja podera colocar seus arquivos .css</p>
+
+<h3>USANDO ROTAS<h3>
 
 ```js
 //verificando se a rota e https://dominio.com/menu
@@ -45,6 +54,17 @@ app.get('/', (request, response) => {
 });
 
 ```
+    
+<h3>CONFIG.JS<h3>
+    
+```json
+{
+	"clientID": "854395492364058674",
+	"clientSecret": "W_7dIi97-zQMNMd25hA8rXst3pSxR4BN",
+	"port": 53134
+} 
+```
+
 
 <h2>CREDITOS</h2>
 • Gusttavo Dev
