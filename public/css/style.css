@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body {
+  background-image: url("https://www.enjpg.com/img/2020/fortnite-background-hd-png-5.jpg");
+}
+#banner {
+  position: absolute;
+    top: 223px;
+    left: 253px;
+}
+.bta-add {
+    position: absolute;
+    bottom: 128px;
+    left: 771px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 135px;
+    height: 46px;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    background: #FF0000;
+    background: linear-gradient(to left, #FF0000, #8B0000);
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.bta-c {
+    position: absolute;
+    bottom: 128px;
+    left: 923px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 135px;
+    height: 46px;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    background: #FF0000;
+    background: -webkit-linear-gradient(to right, #FF0000, #FF0000);
+    background: linear-gradient(to left, #FF00FF, #D02090);
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 5px;
+}
+.bta-p {
+    position: absolute;
+    bottom: 128px;
+    left: 1082px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 135px;
+    height: 46px;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    background: #FF0000;
+    background: -webkit-linear-gradient(to right, #FF0000, #27408B);
+    background: linear-gradient(to left, #4876FF, #27408B);
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.bta-p:hover {
+    position: absolute;
+    bottom: 128px;
+    left: 1082px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    width: 135px;
+    height: 46px;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    background: #FF0000;
+    background: -webkit-linear-gradient(to right, #FF0000, #27408B);
+    background: linear-gradient(to left, #27408B, #4876FF);
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+.bta-c:hover {
+    position: absolute;
+    bottom: 128px;
+    left: 923px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    width: 135px;
+    height: 46px;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    background: #FF0000;
+    background: -webkit-linear-gradient(to right, #FF0000, #D02090);
+    background: linear-gradient(to left, #D02090, #FF00FF);
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+
+.bta-add:hover {
+background: linear-gradient(to left, #8B0000, #FF0000);
+color: black;
+animation: moveBanner 1s 0.9s forwards;;
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+#t1 {
+    font-family: 'Open Sans', sans-serif;
+    color:#FFFF00;
+    position: absolute;
+    right: 470px;
+    top: 207px;
+    font-size: 55px;
+}
+
+
+#t2 {
+    font-family: 'Open Sans', sans-serif;
+    color:#FFFF00;
+    position: absolute;
+    right: 604px;
+    top: 274px;
+    font-size: 77px;
+}
+
+#t3 {
+    font-family:'Open Sans', sans-serif;
+    color:#FFFF00;
+    position: absolute;
+    right:  319px;
+    top: 403px;
+    font-size: 40px;
+}
