@@ -1,6 +1,8 @@
 # Bot-Dashboard
 Tutorial Site com Dashboard para bot Discord
 
+**Tutorial YouTube**: 
+
 <img src="https://media.discordapp.net/attachments/829462283553210378/856352058609369148/unknown-2.png">
 
 <h3>API'S USADAS</h3>
@@ -23,6 +25,24 @@ app.set('view engine', 'ejs');
 app.use(express.static('public'))
 
 app.listen(port, () => console.log(`App listening at http://localhost:${port}`));
+
+```
+
+<h3>USANDO ROTAS</h3>
+
+```js
+//verificando se a rota e https://dominio.com/menu
+app.route('/menu').get((req, res) => {
+    res.render('menu');//irá renderizar o arquivo menu.ejs
+  }).post((req, res) => {
+    console.log('processing...')//aguardando renderizar o arquivo
+    res.send('processing...')
+  });
+
+app.get('/', (request, response) => {
+ let html = 'index';
+  response.render(html);//renderizando a pagina padrão index.ejs
+});
 
 ```
 
